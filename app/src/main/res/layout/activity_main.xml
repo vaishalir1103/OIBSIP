@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@color/material_dynamic_primary60"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingTop="0px"
+        android:layout_marginLeft="80dp"
+        android:text="UNIT CONVERTER"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/text1"/>
+
+    <EditText
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:hint="ENTER YOUR NUMBER IN METER:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:inputType="number"
+        android:id="@+id/editmt"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="700px"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/material_dynamic_neutral20"
+        android:gravity="top"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:id="@+id/bt1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/text2"/>
+
+</LinearLayout>
